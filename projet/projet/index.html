@@ -4,44 +4,70 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-<link rel="stylesheet" type="text/css" href="css/accueil.css">
+    <link rel="stylesheet" href="css/accueil.css" />
 </head>
 <body>
-    
 
-        <h2> <center> <img src="img/logo/pharmacie.png" alt="Logo" /> </center></h2>
-        <h2> <center> WASH&CO </center></h2>
+    <header>
+        <img id="logo" src="img/logo/logo_small.png" alt="Logo" />
+        <h2> <center><strong>WASH&CO </strong> <img id="logo2" src="img/logo/logo_small_icon_only.png" alt="Logo2" /> </center></h2>
+        <h4><center>Votre bien être est notre priorité</center></h4>
+        <form>
+            <div id="search">
+                <input type="search" id="maRecherche" name="q">
+                <button id="bouton">Rechercher</button>
+            </div>
+        </form>
 
         <nav>
+
             <ul>
                 <li><a href="index.html"> Accueil</a></li>
-                <li><a href="index.html">Soins corporels</a></li>
-                <li><a href="soinsDuvisage.html">Soins du visage</a></li>
+                <li><a href="SoinsCorp.html">Soins corporels</a></li>
+                <li><a href="index.html">Soins du visage</a></li>
+                <li><a href="index.html">Accessoires</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
         </nav>
     </header>
 
-
-
-
-
-
-
-
-
-
-
-</body>
-<footer>
+    <aside>
+        <h2>Catégories <img id="logo3" src="img/logo/logo_small_icon_only_inverted.png" alt="logo3" /></h2>
+        <a href="index.html">Soins corporels</a><br />
+        <a href="index.html">Soins du visage</a><br />
+        <a href="index.html">Accessoires</a>
+    </aside>
     <div>
 
-    <img src="img/logo/cytech.png" alt="Logo"/>
-     <p>Bienvenue dans votre boutique de soins en ligne. N'hésitez pas à nous contact au moindre besoin</p>
-</div>
 
-    <p>© 2021 CY-Tech</p>
+        <p>Bienvenue dans votre boutique de soins en ligne. N'hésitez pas à nous contact au moindre besoin ici <a href="index.html">Contact</a></p>
+    </div>
 
+    <div id="bloc">
+        <div class="gallery">
+            <a target="_blank" href="img/logo/soins-du-corps.jpg">
+                <img src="img/logo/soins-du-corps.jpg" alt="soins corps" width="600" height="400">
+            </a>
+            <div class="desc">Retrouvez les produits dédiés aux soins corporels</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="img/logo/nettoyage-visage.jpg">
+                <img src="img/logo/nettoyage-visage.jpg" alt="soins visage" width="600" height="400">
+            </a>
+            <div class="desc">Retrouvez les produits dédiés aux soins du visage</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="img/logo/hygiène-soin-personnel.jpg">
+                <img src="img/logo/hygiène-soin-personnel.jpg" alt="accessoires" width="600" height="400">
+            </a>
+            <div class="desc">Retrouvez les accesoires</div>
+        </div>
+    </div>
+</body>
+<footer>
+    <p><center> © 2021 CY-Tech </center></p>
 </footer>
 </html>
