@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/accueil.css" />
 </head>
 <body>
     <header>
@@ -23,77 +23,93 @@
             <ul>
                 <li><a href="index.html"> Accueil</a></li>
                 <li><a href="SoinsCorp.html">Soins corporels</a></li>
-                <li><a href="index.html">Soins du visage</a></li>
-                <li><a href="accessoires.html">Accessoires</a></li>
+                <li><a href="SoinVisage.html">Soins du visage</a></li>
+                <li><a href="accesoires.html">Accessoires</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
         </nav>
     </header>
 
-    <aside>
-        <h2>Catégories <img id="logo3" src="img/logo/logo_small_icon_only_inverted.png" alt="logo3" /></h2>
-        <a href="SoinsCorp.html">Soins corporels</a><br />
-        <a href="index.html">Soins du visage</a><br />
-        <a href="accessoires.html">Accessoires</a>
-    </aside>
+    <div style="display:flex;">
+        <aside style="height:500px">
+            <h2>Catégories <img id="logo3" src="img/logo/logo_small_icon_only_inverted.png" alt="logo3" /></h2>
+            <a href="SoinsCorp.html">Soins corporels</a><br />
+            <a href="SoinVisage.html">Soins du visage</a><br />
+            <a href="accesoires.html">Accessoires</a>
+        </aside>
+        <div style="display:flex;flex:1; justify-content:center; align-items:center">
+            <form id="formulaire">
 
-     <table style="border:1px;margin:0 auto; background: snow" width="50%" cellpadding="5" cellspacing="0">
-
-    <tr>
-    <td>Date du contact </td>
-    <td><input id="date" type="date"> </td>
-    </tr>
-
-    <tr>
-        <td style="background: salmon">Nom</td>
-        <td><input type="text" style="width: 95%"></td>
-
-        <td style="background: salmon">Prénom</td>
-        <td><input type="text" style="width: 95%"></td>
-
-        <td style="background: salmon">Genre</td>
-        <td><select style="width: 96%">
-            <option>Femme</option>
-            <option>Homme</option>
-        </select></td>
-    </tr>
-
-<tr>
-    <td>Numéro de téléphone </td>
-    <td><input type="tel" style="width: 95%"></td>
-
-    <td>Adresse e-mail</td>
-    <td><input type="email" style="width: 95%"></td>
-</tr>
-
-<tr>
-    <td>Date de naissance </td>
-    <td><input id="date" type="date"> </td>
-</tr>
+                <div>
+                    <label>Date du contact</label>
+                    <input id="date" type="date">
+                </div>
 
 
+                <div style="margin-top:10px">
 
-    <td>Fonction</td>
-        <td><select style="width: 96%">
-            <option>Enseignant</option>
-            <option>Client</option>
-        </select></td>
+                    <label style="background: salmon">Nom</label>
+                    <input type="text" style="width: 40%">
+                </div>
 
-<tr>
-    <td>Sujet</td>
-    <td colspan="3"><input type="text" placeholder="Entrez le sujet de votre mail" style="width: 98%;"></td>
-</tr>
-<tr>
-    <td>Contenu</td>
-    <td colspan="3"><input type="text" placeholder="Le contenu de votre message" style="width: 98%;"></td>
-</tr>
-<tr>
-    <td id=eeee colspan="4" algin="right">
-        <input type="submit" value="envoyer">
-    </td>
-</tr>
-</table>
+                <div style="margin-top:10px">
+                    <label style="background: salmon">Prenom</label>
+                    <input type="text" style="width: 40%">
+
+                </div>
+
+                <div style="margin-top:10px">
+                    <label style="background: salmon">Genre</label>
+                    <select style="width: 40%">
+                        <option>Femme</option>
+                        <option>Homme</option>
+                    </select>
+
+                </div>
+
+                <div style="margin-top:10px">
+                    <label>Numéro de téléphone </label>
+                    <input type="tel" style="width: 40%">
+                </div>
+
+                <div style="margin-top:10px">
+                    <label>Adresse e-mail</label>
+                    <input type="tel" style="width: 40%">
+                </div>
+
+                <div style="margin-top:10px">
+                    <label>Date de naissance </label>
+                    <input id="date" type="date">
+                </div>
+
+                <div style="margin-top:10px">
+                    <label>Fonction</label>
+                    <select style="width: 40%">
+                        <option>Enseignant</option>
+                        <option>Client</option>
+                    </select>
+                </div>
+
+
+                <div style="margin-top:10px">
+                    <label>Sujet</label>
+                    <input type="text" placeholder="Entrez le sujet de votre mail" style="width: 40%;">
+                </div>
+
+
+                <div style="margin-top:10px">
+                    <label>Contenu</label>
+                    <input type="text" placeholder="Le contenu de votre message" style="width: 40%;">
+                </div>
+
+                <input type="submit" value="envoyer">
+
+
+            </form>
+        </div>
+    </div>
+
 
 
 
