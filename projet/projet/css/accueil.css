@@ -1,19 +1,22 @@
-body {
-    margin: auto;
-    font-family: cursive;
-}
-
-header {
+﻿body {
    
+    font-family: cursive;
+    margin:0;
+    padding:0;
+}
+header {
+  
     background-image: url("../img/fond.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+
 }
 
 nav {
-    padding-top: 30px;
-    text-align: center;
    
+    text-align: center;
+    
 }
 
 
@@ -24,25 +27,29 @@ ul {
     overflow: hidden;
     background-color: darkseagreen;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 
 li {
-    float: left
+
+    float: left;
+ 
+
 }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration:none;
-    }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
 
-        li a:hover {
-            background-color: #111;
-        }
+}
+
+li a:hover {
+    background-color: #111; 
+}
 
 #logo {
     height: 60px;
@@ -52,6 +59,7 @@ li {
 #logo2 {
     height: 30px;
     width: 40px;
+ 
 }
 
 #logo3 {
@@ -59,14 +67,49 @@ li {
     width: 40px;
     padding-top: 15px;
 }
-
 #search {
     padding-left: 1200px;
+    margin-bottom: 10px;
 }
 
+#bouton {
+    width: 100px;
+    background-color: darkseagreen;
+    border-radius: 10px;
+}
+
+input:hover{
+    border-color:dodgerblue;
+
+}
+
+div.gallery {
+    margin-left: 50px;
+    padding-bottom:10px;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+    div.gallery:hover {
+        border: 3px solid #777;
+    }
+
+    div.gallery img {
+        width: 180px;
+        height: auto;
+    }
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
 aside {
-    width: 20%;
-    height: 900px;
+    width: 20%; 
+    
     position: relative;
     padding-left: 15px;
     margin-left: 0;
@@ -74,10 +117,16 @@ aside {
     background-color: lightgray;
 }
 
-    aside a {
-        text-decoration: none;
-    }
+#bloc {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1.1em;
+}
 
+aside a{
+    text-decoration:none;
+}
 footer {
     background-color: black;
     color: white;
@@ -87,6 +136,17 @@ footer {
     padding-top: 50px;
     height: 50px;
 }
+
+#formulaire {
+    align-items: center;
+    justify-content: center;
+    border:1px;
+    text-align: justify;
+    padding: 1.1em;
+    float:left;
+ 
+}
+
 
 
 table {
@@ -98,8 +158,8 @@ table {
     align-items: center;
 }
 
-th{
-    padding-left:20px;
+th {
+    padding-left: 20px;
 }
 
 .produit {
@@ -107,3 +167,15 @@ th{
     width: 150px;
 }
 
+button {
+    background-color: darkseagreen;
+    border-radius: 10px;
+}
+
+    button:hover {
+        background-color: yellow;
+    }
+
+    button:active {
+        background-color: red;
+    }
