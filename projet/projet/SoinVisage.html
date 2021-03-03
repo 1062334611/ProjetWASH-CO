@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/accueil.css" />
     </head>
     <body>
+        <div style="width:100%; background-color:gray; color:white;height:25px; float:right;">
+        </div>
         <header>
             <img id="logo" src="img/logo/logo_small.png" alt="Logo" />
             <h2> <center> WASH&CO <img id="logo2" src="img/logo/logo_small_icon_only.png" alt="Logo2" /> </center></h2>
@@ -22,7 +24,7 @@
             <form>
                 <div id="search">
                     <input type="search" id="maRecherche" name="q">
-                    <button id="bouton">Rechercher</button>
+                    <button id="bouton1">Rechercher</button>
                 </div>
             </form>
 
@@ -31,7 +33,7 @@
                 <ul>
                     <li><a href="index.html"> Accueil</a></li>
                     <li><a href="SoinsCorp.html">Soins corporels</a></li>
-                    <li><a href="SoinVisage.html">Soins du visage</a></li>
+                    <li><a style="background-color:black;" href="SoinVisage.html">Soins du visage</a></li>
                     <li><a href="accesoires.html">Accessoires</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -39,84 +41,114 @@
             </nav>
         </header>
 
-        <aside style="height:900px">
+        <aside style="height: 1050px">
+            <h2>WASH&CO <img id="logo2" src="img/logo/logo_small_icon_only.png" alt="Logo2" /></h2>
+            <a href="index.html"> Accueil</a><br />
+            <a href="contact.html">Contact</a><br />
+            <hr />
             <h2>Catégories <img id="logo3" src="img/logo/logo_small_icon_only_inverted.png" alt="logo3" /></h2>
             <a href="SoinsCorp.html">Soins corporels</a><br />
             <a href="SoinVisage.html">Soins du visage</a><br />
             <a href="accesoires.html">Accessoires</a>
         </aside>
 
-        <table>
-            <tr>
-                <th>Produit</th>
-                <th>Référence</th>
-                <th>Désignation</th>
-                <th>Prix</th>
 
-            </tr>
+        <div id="produits">
 
-            <tr>
-                <th><img class="produit" src="img/effaclar.jpg" alt="effaclar" /></th>
-                <th>i810</th>
-                <th>Effaclar LaRochePosay</th>
-                <th>13,94£</th>
-                <th>
-                    <button name="favorite" type="button">
+            <div class="article">
+                <p><strong>i877</strong></p>
+                <img class="produit" src="img/Bioderma.jpg" alt="Bioderma" />
+                <p>Eau micéllaire Bioderma</p>
+                <hr />
+                <p><strong>10£</strong></p>
+                <div>
+                    <button class="bouton" style="width:180px" name="favorite" type="button">
                         Acheter
                     </button>
-                </th>
-            </tr>
-            <tr>
-                <th><img class="produit" src="img/serum.jpg" alt="serum" /></th>
-                <th>i096</th>
-                <th>Serum LaRochePosay</th>
-                <th>26,49£</th>
-                <th>
-                    <button name="favorite" type="button">
-                        Acheter
-                    </button>
-                </th>
-            </tr>
-            <tr>
-                <th><img class="produit" src="img/YvesRocher.jpg" alt="Yves rocher" /></th>
-                <th>i432</th>
-                <th>Game Yves Rohcer</th>
-                <th>38£</th>
-                <th>
-                    <button name="favorite" type="button">
-                        Acheter
-                    </button>
-                </th>
-            </tr>
-            <tr>
-                <th><img class="produit" src="img/Bioderma.jpg" alt="Bioderma" /></th>
-                <th>i877</th>
-                <th>Eau micéllaire Bioderma</th>
-                <th>10£</th>
-                <th>
-                    <button name="favorite" type="button">
-                        Acheter
-                    </button>
-                </th>
-            </tr>
-            <tr>
-                <th><img class="produit" src="img/fenty.jpg" alt="Fenty Skin" /></th>
-                <th>i900</th>
-                <th>Game Fenty Skin</th>
-                <th>68£</th>
-                <th>
-                    <button name="favorite" type="button">
-                        Acheter
-                    </button>
-                </th>
-            </tr>
+                </div>
 
+            </div>
 
-        </table>
+            <div class="article">
+                <p><strong>i900</strong></p>
+                <img class="produit" src="img/fenty.jpg" alt="Fenty Skin" />
+                <p>Game Fenty Skin</p>
+                <hr />
+                <p><strong>68£</strong></p>
+                <div>
+                    <button class="bouton" style="width:180px" name="favorite" type="button">
+                        Acheter
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="article">
+                <p><strong>i432</strong></p>
+                <img class="produit" src="img/YvesRocher.jpg" alt="Yves rocher" />
+                <p>Game Yves Rohcer</p>
+                <hr />
+                <p><strong>38£</strong></p>
+                <div>
+                    <button class="bouton" style="width:180px" name="favorite" type="button">
+                        Acheter
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div id="produits">
+
+            <div class="article">
+                <p><strong> i906</strong></p>
+                <img class="produit" src="img/serum.jpg" alt="serum" />
+                <p>Serum LaRochePosay</p>
+                <hr />
+                <p><strong>24,95£</strong></p>
+                <div>
+                    <button class="bouton" style="width:180px" name="favorite" type="button">
+                        Acheter
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="article">
+                <p><strong>i801</strong></p>
+                <img class="produit" src="img/effaclar.jpg" alt="effaclar" />
+                <p>Effaclar LaRochePosay</p>
+                <hr />
+                <p><strong>13,94</strong></p>
+                <div>
+                    <input style="width:180px" value="Acheter" type="submit" />
+
+                </div>
+
+            </div>
+        </div>
+
+        <button style="        margin-top: 30px;
+        float: right;
+        margin-right: 50px;
+        height: 30px;
+        border-radius: 10px;
+        background-color:gold;
+        font-family: cursive;" name="favorite" type="button">
+            stock
+        </button>
     </body>
-    <footer>
-        <p><center> © 2021 CY-Tech </center></p>
-    </footer>
+ <footer style="margin-top:250px">
+        <center>
+            <p>
+                Contact <br />
+                email: ngassamfey@eisti.eu jian.wu@eisti.eu<br />
+                téléphone: 0753210077 0776931738 <br />
+            </p>
+
+            <p> © 2021 CY-Tech</p>
+        </center>
+
+ </footer>
 </html>
 </body>
 </html>
