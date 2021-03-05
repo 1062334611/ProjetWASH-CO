@@ -60,7 +60,7 @@
                 <img class="produit" src="img/Bioderma.jpg" alt="Bioderma" />
                 <p>Eau micéllaire Bioderma</p>
                 <hr />
-                <p><strong>10£</strong></p>
+                <p><strong>10£</strong><br/><strong class="stockv"></strong></p>
                 <div>
                     <button class="bouton" style="width:180px" name="favorite" type="button">
                         Acheter
@@ -74,7 +74,7 @@
                 <img class="produit" src="img/fenty.jpg" alt="Fenty Skin" />
                 <p>Game Fenty Skin</p>
                 <hr />
-                <p><strong>68£</strong></p>
+                <p><strong>68£</strong><br/><strong class="stockv"></strong></p>
                 <div>
                     <button class="bouton" style="width:180px" name="favorite" type="button">
                         Acheter
@@ -88,7 +88,7 @@
                 <img class="produit" src="img/YvesRocher.jpg" alt="Yves rocher" />
                 <p>Game Yves Rohcer</p>
                 <hr />
-                <p><strong>38£</strong></p>
+                <p><strong>38£</strong><br/><strong class="stockv"></strong></p>
                 <div>
                     <button class="bouton" style="width:180px" name="favorite" type="button">
                         Acheter
@@ -104,7 +104,7 @@
                 <img class="produit" src="img/serum.jpg" alt="serum" />
                 <p>Serum LaRochePosay</p>
                 <hr />
-                <p><strong>24,95£</strong></p>
+                <p><strong>24,95£</strong><br/><strong class="stockv"></strong></p>
                 <div>
                     <button class="bouton" style="width:180px" name="favorite" type="button">
                         Acheter
@@ -118,7 +118,7 @@
                 <img class="produit" src="img/effaclar.jpg" alt="effaclar" />
                 <p>Effaclar LaRochePosay</p>
                 <hr />
-                <p><strong>13,94</strong></p>
+                <p><strong>13,94</strong><br/><strong class="stockv"></strong></p>
                 <div>
                     <input style="width:180px" value="Acheter" type="submit" />
 
@@ -127,15 +127,10 @@
             </div>
         </div>
 
-        <button style="        margin-top: 30px;
-        float: right;
-        margin-right: 50px;
-        height: 30px;
-        border-radius: 10px;
-        background-color:gold;
-        font-family: cursive;" name="favorite" type="button">
+        <button  id="valid" name="favorite" onclick="afficherStock()" >
             stock
         </button>
+        <script type="text/javascript" src="js/Script.js"></script>
     </body>
  <footer style="margin-top:250px">
         <center>
