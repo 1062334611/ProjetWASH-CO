@@ -59,7 +59,7 @@
             <img class="produit" src="img/seaBand.jpg" alt="seaBand" />
             <p>Sea-band X2</p>
             <hr />
-            <p><strong>11,99£</strong></p>
+            <p><strong>11,99£</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <button class="bouton" style="width:180px" name="favorite" type="button">
                     Acheter
@@ -74,7 +74,7 @@
             <img class="produit" src="img/trousse.jpg" alt="trousse" />
             <p>Trousse de toilette</p>
             <hr />
-            <p><strong>14,93£</strong></p>
+            <p><strong>14,93£</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <button class="bouton" style="width:180px" name="favorite" type="button">
                     Acheter
@@ -88,7 +88,7 @@
             <img class="produit" src="img/masqueYeux.jpg" alt="masqueYeux" />
             <p>Masques Yeux</p>
             <hr />
-            <p><strong>17,90£</strong></p>
+            <p><strong>17,90£</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <button class="bouton" style="width:180px" name="favorite" type="button">
                     Acheter
@@ -104,7 +104,7 @@
             <img class="produit" src="img/peignoir.jpg" alt="peignoir" />
             <p>Peignoir</p>
             <hr />
-            <p><strong>85,95£</strong></p>
+            <p><strong>85,95£</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <button class="bouton" style="width:180px" name="favorite" type="button">
                     Acheter
@@ -118,7 +118,7 @@
             <img class="produit" src="img/bonnet.jpg" alt="bonnet" />
             <p>Bonnet de bain</p>
             <hr />
-            <p><strong>18,75</strong></p>
+            <p><strong>18,75</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <input style="width:180px" value="Acheter" type="submit" />
 
@@ -126,15 +126,10 @@
 
         </div>
     </div>
-    <button style="        margin-top: 30px;
-        float: right;
-        margin-right: 50px;
-        height: 30px;
-        border-radius: 10px;
-        background-color:gold;
-        font-family: cursive;" name="favorite" type="button">
+    <button  id="valid" name="favorite" onclick="afficherStock()" >
         stock
     </button>
+    <script type="text/javascript" src="js/Script.js"></script>
 
 </body>
 <footer style="margin-top:250px">
