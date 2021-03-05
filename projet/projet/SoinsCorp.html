@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" href="css/accueil.css" />
-    <script type="text/javascript" src="js/Script.js"></script>
 </head>
 <body>
     <div style="width:100%; background-color:gray; color:white;height:25px; float:right;">
@@ -50,11 +50,11 @@
 
         <div class="article">
             <p><strong>i540</strong></p>
-            <img class="produit" src="img/nivea.jpg" alt="nivea" />
+            <img class="produit" onclick="zoom(this)" src="img/nivea.jpg" alt="nivea" />
             <p>Lait nivea</p>
             <hr />
-            <p id="stock1">
-                <strong>8£</strong><br />
+            <p class="stock">
+                <strong>8€</strong><br /><strong class="stockv"></strong>
             </p>
             <div>
                 <button class="bouton" style="width:180px" name="favorite" type="button">
@@ -69,12 +69,12 @@
             <img class="produit" src="img/sensehuile.jpg" alt="sensehuile" />
             <p>Huile essentielle</p>
             <hr />
-            <p id="stock2"><strong>10£</strong></pid="stock1">
-            <div>
-                <button class="bouton" style="width:180px" name="favorite" type="button">
-                    Acheter
-                </button>
-            </div>
+            <p class="stock"><strong>10€</strong><br/><strong class="stockv"></strong></p>
+                <div>
+                    <button class="bouton" style="width:180px" name="favorite" type="button">
+                        Acheter
+                    </button>
+                </div>
 
         </div>
 
@@ -83,7 +83,7 @@
             <img class="produit" src="img/laitbio.jpg" alt="laitbio" />
             <p>Lait bio</p>
             <hr />
-            <p id="stock3"><strong>9,08£</strong></p>
+            <p class="stock"><strong>9,08€</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <button class="bouton" style="width:180px" name="favorite" type="button">
                     Acheter
@@ -99,7 +99,7 @@
             <img class="produit" src="img/huileCorps.jpg" alt="Huile corp" />
             <p>Huile bio</p>
             <hr />
-            <p id="stock4"><strong>14,33£</strong></p>
+            <p class="stock"><strong>14,33€</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <button class="bouton" style="width:180px" name="favorite" type="button">
                     Acheter
@@ -113,7 +113,7 @@
             <img class="produit" src="img/huilenigelle.jpg" alt="Huile nigelle" />
             <p>Huile de nigelle</p>
             <hr />
-            <p id="stock5"><strong>5,90£</strong></p>
+            <p class="stock"><strong>5,90€</strong><br/><strong class="stockv"></strong></p>
             <div>
                 <input style="width:180px" value="Acheter" type="submit" />
 
@@ -121,15 +121,10 @@
 
         </div>
     </div>
-    <button onclick="afficherStock()" style="        margin-top: 30px;
-        float: right;
-        margin-right: 50px;
-        height: 30px;
-        border-radius: 10px;
-        background-color:gold;
-        font-family: cursive;" name="favorite" type="button">
+    <button  id="valid" name="favorite" onclick="afficherStock()" >
         stock
     </button>
+    <script type="text/javascript" src="js/Script.js"></script>
 </body>
 <footer style="margin-top:250px">
     <center>
