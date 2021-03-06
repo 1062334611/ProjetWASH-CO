@@ -168,7 +168,7 @@ footer {
    margin-left:100px;
     background-color:antiquewhite;
     width: 600px;
-    height:620px;
+    height:1000px;
     padding-top:10px;
     padding-left: 30px;
 }
@@ -177,7 +177,6 @@ footer {
     border: 3px groove gray;
     background-color:azure;
 }
-
 
 
 table {
