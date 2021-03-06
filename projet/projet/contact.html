@@ -56,14 +56,16 @@
                 <div style="margin-top:10px">
 
                     <label>Nom</label>
-                    <input type="text" style="width: 40%;margin-left: 126px">
+                    <input type="text" style="width: 40%;margin-left: 126px" id="userAccount" placeholder=" Saisissez votre nom">
                 </div>
+                <p class="item_"></p>
 
                 <div style="margin-top:10px">
                     <label>Prenom</label>
-                    <input type="text" style="width: 40% ;margin-left:106px">
+                    <input type="text" style="width: 40% ;margin-left:106px" id="userName" placeholder=" Saisissez votre prénom">
 
                 </div>
+                <p class="item_"></p>
 
                 <div style="margin-top:10px">
                     <label>Genre</label>
@@ -76,13 +78,15 @@
 
                 <div style="margin-top:10px">
                     <label>Numéro de téléphone </label>
-                    <input type="tel" style="width: 40%;">
+                    <input type="tel" style="width: 40%;" id="telephone" placeholder=" Veuillez entrer votre numéro de téléphone">
                 </div>
+                <p class="item_"></p>
 
                 <div style="margin-top:10px">
                     <label>Adresse e-mail</label>
-                    <input type="tel" style="width: 40%;margin-left:47px">
+                    <input type="tel" style="width: 40%;margin-left:47px" id="email" placeholder=" Saisissez votre adresse e-mail">
                 </div>
+                <p class="item_"></p>
 
                 <div style="margin-top:10px">
                     <label>Date de naissance </label>
@@ -100,18 +104,25 @@
 
                 <div style="margin-top:10px">
                     <label>Sujet</label>
-                    <input type="text" placeholder="Entrez le sujet de votre mail" style="width: 40%;margin-left:117px">
+                    <input type="text" id="userSujet" placeholder="Entrez le sujet de votre mail" style="width: 40%;margin-left:117px">
                 </div>
+                <p class="item_"></p>
 
 
                 <div style="margin-top:10px">
                     <label>Contenu</label><br />
-                    <input type="text" placeholder="Le contenu de votre message" style="width: 80%;height:150px">
+                    <input type="text" id="userContenu" placeholder="Le contenu de votre message" style="width: 80%;height:150px">
                 </div>
+                <p class="item_"></p>
 
-                <input type="submit" value="envoyer">
+                
 
-
+               <div id="end">
+               <input type="checkbox" id="choose">
+               <label for="choose">J'ai lu et j'accepte de respecter l'accord de confidentialité</label>
+               <br>
+               <button id="handup">Envoyer</button>
+               </div>
             </form>
         </div>
     </div>
@@ -134,3 +145,4 @@
 
 </footer>
 </html>
+<script src="js/test.js"></script>
