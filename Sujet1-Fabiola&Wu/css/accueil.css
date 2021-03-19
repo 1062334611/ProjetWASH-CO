@@ -1,0 +1,288 @@
+﻿html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+   
+    
+    font-family: cursive;
+    
+}
+header {
+  
+    background-image: url("../img/fond.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    
+
+}
+
+#panier{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-decoration: no;
+}
+
+#panier:hover{
+    text-decoration: underline;
+}
+
+#connexion{
+    text-decoration: none;
+    float: right;
+    color: white;
+    margin-right: 20px;
+}
+
+#connexion:hover{
+    text-decoration: underline;
+}
+
+nav {
+   
+    text-align: center;
+    
+}
+
+.topnav {
+    overflow: hidden;
+    padding-left: 1000px;
+    margin-bottom: 10px;
+    
+  }
+
+  
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 80px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+li {
+
+    float: left;
+ 
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+
+}
+
+li a:hover {
+    background-color: #111; 
+}
+
+#logo {
+    height: 60px;
+    width: 80px;
+}
+
+#logo2 {
+    height: 30px;
+    width: 40px;
+ 
+}
+
+#logo3 {
+    height: 30px;
+    width: 40px;
+    padding-top: 15px;
+}
+#search {
+    padding-left: 1200px;
+    margin-bottom: 10px;
+}
+
+#search input[type=search]{
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 50px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+
+}
+
+#bouton1 {
+    width: 100px;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    font-family: cursive
+}
+
+input:hover{
+    border-color:dodgerblue;
+
+}
+
+div.gallery {
+
+    margin-left: 50px;
+    padding-bottom:10px;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 2px groove black;
+    float: left;
+    width: 200px;
+    height:200px 
+}
+
+
+    div.gallery img {
+        width: 170px;
+        height: 150px;
+    }
+
+#produits {
+    margin-top: 50px;
+    display: flex;
+  
+    padding-left: 100px;
+    flex-basis: 50%;
+}
+  
+.article{
+    margin-left:30px;
+    padding-left: 50px;
+    position:relative;
+   
+}
+
+div.desc {
+   
+    text-align: center;
+    
+    
+}
+
+
+aside {
+    width: 240px; 
+    position: relative;
+    padding-left: 15px;
+    margin-left: 0;
+    float: left;
+    background-color: lightgray;
+}
+
+#bloc {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1.1em;
+}
+
+aside a{
+    text-decoration:none;
+}
+footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+    
+}
+
+#formulaire {
+    margin-top: 40px;
+    border: 1px;
+   margin-left:100px;
+    background-color:antiquewhite;
+    width: 600px;
+    height:860px;
+    padding-top:10px;
+    padding-left: 30px;
+}
+
+#formulaire:hover{
+    border: 3px groove gray;
+    background-color:azure;
+}
+
+
+
+table {
+    text-align: center;
+    padding-top: 50px;
+    border: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    padding-left: 20px;
+}
+
+.produit {
+    height: 150px;
+    width: 150px;
+}
+
+.bouton2{
+    background-color:antiquewhite;
+    color:black;
+    height: 40px;
+    font-family: cursive;
+    border: transparent;
+    border-radius: 3px;
+    
+}
+
+.bouton2:hover{
+    background-color: azure;
+    color: black;
+    border: black 2px;
+}
+
+.bouton {
+    background-color: darkseagreen;
+    color:white;
+
+        
+}
+
+
+
+#valid {
+    margin-top: 30px; float: right;
+    margin-right: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:antiquewhite;
+    font-family: cursive;
+}
+
